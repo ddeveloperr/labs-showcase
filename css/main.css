@@ -737,3 +737,18 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #fed136;
 }
+
+/* Labs list style */
+
+.project-list > tbody > tr > td {
+  padding: 12px 8px;
+}
+
+.project-list > tbody > tr > td .avatar {
+  width: 22px;
+  border: 1px solid #CCC;
+}
+
+.hover_img a { position:relative; }
+.hover_img a span { position:absolute; display:none; z-index:99; }
+.hover_img a:hover span { display:block; }
